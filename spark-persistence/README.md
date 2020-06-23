@@ -31,7 +31,7 @@ metadata:
     volume.beta.kubernetes.io/storage-class: portworx-spark-sc
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 2Gi
